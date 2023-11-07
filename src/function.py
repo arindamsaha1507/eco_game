@@ -1,8 +1,11 @@
+"""ODE Function to be integrated."""
+
 import numpy as np
 
 
-def ode_func(t, y, p):
-    """Function to be integrated."""
+def ode_func(_, y, p):
+    """Rock Paper Scissors ODE function."""
+
     a, b, c, sig1, sig2, sig3, alpha, beta, xi = p
     u, v, w = y
 
