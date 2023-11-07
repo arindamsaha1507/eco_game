@@ -1,3 +1,5 @@
+"""Module for solving the ODE system."""
+
 import numpy as np
 import yaml
 from scipy.integrate import ode
@@ -6,6 +8,8 @@ from src.function import ode_func
 
 
 def run_simulation():
+    """Run the simulation."""
+
     tf = 100_000
     t = np.linspace(0, tf, tf * 10)
 

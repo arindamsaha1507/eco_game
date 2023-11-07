@@ -1,7 +1,11 @@
+"""Module for plotting the results of the simulation."""
+
 import pylab as pl
 
 
 def plot_figure(data, filename):
+    """Plot the timeseries of the simulation."""
+
     pl.figure(1)
     pl.plot(data[:, 0], "b", linewidth=1, label="R")
     pl.plot(data[:, 1], "r", linewidth=1, label="P")

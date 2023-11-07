@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 13 18:30:23 2023
-
-@author: subrata
-"""
+"""Main module for the eco_game_dynamics package."""
 
 from src.solver import run_simulation
 from src.plotter import plot_figure
