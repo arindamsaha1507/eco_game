@@ -11,3 +11,13 @@ repos:
           "-rn", # Only display messages
           # "-sn", # Don't display the score
         ]
+    - id: black
+      name: black
+      entry: black
+      language: system
+      types: [python]
+      args:
+        [
+          "--check", # Don't format, just check
+          "--diff", # Show the diff
+        ]
