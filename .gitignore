@@ -163,3 +163,7 @@ cython_debug/
 
 *.pdf
 *.csv
+*.png
+*.mp4
+plots/
+output/
